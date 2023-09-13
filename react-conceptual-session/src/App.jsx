@@ -7,6 +7,7 @@ import UseState from './UseState/UseState'
 import UseEffect from './UseEffect/UseEffect'
 import FetchData from './UseEffect/FetchData'
 import PropsDilling from './PropsDilling/PropsDilling'
+import FetchhData from './UseEffect/FetchhData'
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
           <UseEffect></UseEffect>
           <FetchData></FetchData>
           <PropsDilling></PropsDilling>
+          <FetchhData></FetchhData>
 
         
     </>

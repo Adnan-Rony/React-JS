@@ -1,0 +1,23 @@
+[
+    {
+      "name": "Classic Silver Watch",
+      "price": 199.99
+    },
+    {
+      "name": "Sports Chronograph Watch",
+      "price": 249.99
+    },
+    {
+      "name": "Luxury Gold Plated Watch",
+      "price": 499.99
+    },
+    {
+      "name": "Smart Fitness Tracker Watch",
+      "price": 149.999
+    },
+    {
+      "name": "Stylish Leather Strap Watch",
+      "price": 129.99
+    }
+  ]
+  
