@@ -3,8 +3,8 @@ import { Outlet } from 'react-router-dom';
 
 const MainLayout = () => {
     return (
-        <div>
-              <section className='flex justify-between px-10 shadow-md py-6' >
+        <div className=''>
+              <section className='flex  justify-between px-10 shadow-md py-6' >
                 <div>
                     <h1 className='text-4xl font-extrabold'>AMAZON</h1>
                 </div>
@@ -28,7 +28,10 @@ const MainLayout = () => {
         
         </section>
 
-        <Outlet></Outlet>
+        <section className='container mx-auto'>
+        <Outlet ></Outlet>
+        </section>
+        
 
        
 
