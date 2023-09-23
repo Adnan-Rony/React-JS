@@ -1,12 +1,13 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 
 const MainLayout = () => {
     return (
         <div className=''>
               <section className='flex  justify-between px-10 shadow-md py-6' >
                 <div>
-                    <h1 className='text-4xl font-extrabold'>AMAZON</h1>
+                    <h1 className='text-4xl font-extrabold'>CONFARENCE</h1>
                 </div>
     
            <nav>
@@ -22,6 +23,9 @@ const MainLayout = () => {
                 </li>
             </ul>
            </nav>
+           
+
+
     
 
    
@@ -30,9 +34,12 @@ const MainLayout = () => {
 
         <section className='container mx-auto'>
         <Outlet ></Outlet>
-        </section>
+
         
 
+        </section>
+        
+        <Footer></Footer>
        
 
         </div>
